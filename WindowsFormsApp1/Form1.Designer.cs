@@ -48,8 +48,8 @@ namespace WindowsFormsApp1
             this.button1.Size = new System.Drawing.Size(212, 42);
             this.button1.TabIndex = 0;
             this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += Button1_Click;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
