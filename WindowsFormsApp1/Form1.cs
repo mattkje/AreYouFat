@@ -41,5 +41,10 @@ namespace WindowsFormsApp1
         {
             throw new System.NotImplementedException();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

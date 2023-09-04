@@ -43,6 +43,8 @@ namespace WindowsFormsApp1
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 16.25F);
             this.button1.Location = new System.Drawing.Point(37, 290);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(212, 42);
@@ -96,8 +98,7 @@ namespace WindowsFormsApp1
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(434, 71);
             this.label3.TabIndex = 5;
-            this.label3.Text = "The contacts App";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Text = "Name app";
             // 
             // label4
             // 
@@ -114,8 +115,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(725, 501);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
